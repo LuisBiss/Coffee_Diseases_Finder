@@ -1,9 +1,8 @@
 Coffee Leaf Disease Classification using Neural Networks
 
-https://via.placeholder.com/800x400.png?text=Coffee+Leaf+Disease+Examples
+This project implements a neural network system for classifying diseases in coffee leaves. The system processes images of coffee leaves, trains various neural network models, and provides predictions for disease classification. It can standardize images use several types of Neural Network chosse by you
 
-This project implements a neural network system for classifying diseases in coffee leaves. The system processes images of coffee leaves, trains various neural network models, and provides predictions for disease classification.
-Features
+Features:
 
     Image preprocessing and standardization
 
@@ -17,40 +16,39 @@ Features
 
     Single image prediction capability
 
-Installation
-1. Clone the repository
-bash
+## 🚀 Getting Started
 
+Follow the steps below to set up and run the project:
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/coffee-leaf-disease-classification.git
 cd coffee-leaf-disease-classification
+```
+2. Create and activate a virtual environment
 
-2. Create a virtual environment
-bash
-
+On Windows:
+```bash
 python -m venv venv
-
-3. Activate the virtual environment
-
-    Windows:
-    bash
-
 venv\Scripts\activate
-
-macOS/Linux:
-bash
-
-    source venv/bin/activate
-
-4. Install dependencies
-bash
-
+```
+On Linux/macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
+4. Run the application
+```bash
+python main.py
+```
 
-Usage
-1. Prepare your dataset
-
-Organize your coffee leaf images in the following directory structure:
-text
+## 📁 Dataset Structure
+The dataset should be told when asked by the terminal at the root of the repository, and structured as follows:
 
 Dataset/
 ├── Ferrugem/
@@ -59,11 +57,6 @@ Dataset/
 ├── Mineiro/
 ├── Phoma/
 └── Pulga_Vermelha/
-
-2. Run the main script
-bash
-
-python main.py
 
 3. Follow the interactive prompts
 
