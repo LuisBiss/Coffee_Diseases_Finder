@@ -50,19 +50,13 @@ python main.py
 ## 📁 Dataset Structure
 The dataset should be told when asked by the terminal at the root of the repository, and structured as follows:
 
-Dataset/
-
-├── Ferrugem/
-
-├── Fosforo/
-
-├── Healthy/
-
-├── Mineiro/
-
-├── Phoma/
-
-└── Pulga_Vermelha/
+Dataset/ 
+├── Ferrugem/ 
+├── Fosforo/ 
+├── Healthy/ 
+├── Mineiro/ 
+├── Phoma/ 
+└── Pulga_Vermelha/ 
 
 3. Follow the interactive prompts
 
@@ -110,19 +104,13 @@ If you already have processed data, you can skip the data processing step by ent
 Project Structure
 text
 
-├── main.py              # Main entry point
-
-├── app.py               # Neural network model implementations
-
-├── setup_data.py        # Data preprocessing and separation
-
-├── show_data.py         # Visualization functions
-
-├── requirements.txt     # Dependencies
-
-├── README.md            # This file
-
-└── Dataset/             # Sample directory structure (not included)
+├── main.py              # Main entry point 
+├── app.py               # Neural network model implementations 
+├── setup_data.py        # Data preprocessing and separation 
+├── show_data.py         # Visualization functions 
+├── requirements.txt     # Dependencies 
+├── README.md            # This file 
+└── Dataset/             # Sample directory structure (not included) 
 
 Requirements
 
