@@ -26,7 +26,7 @@ Follow the steps below to set up and run the project:
 git clone https://github.com/yourusername/coffee-leaf-disease-classification.git
 cd coffee-leaf-disease-classification
 ```
-2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 
 On Windows:
 ```bash
@@ -38,11 +38,11 @@ On Linux/macOS:
 python3 -m venv venv
 source venv/bin/activate
 ```
-3. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Run the application
+### 4. Run the application
 ```bash
 python main.py
 ```
